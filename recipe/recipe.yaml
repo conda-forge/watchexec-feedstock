@@ -1,5 +1,5 @@
 context:
-  version: "2.3.2"
+  version: "2.4.3"
 
 package:
   name: watchexec
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/watchexec/watchexec/archive/v${{ version }}.tar.gz
-  sha256: 52201822ab00bfaf6757f953f667870b3aada52f887813e94b4f322f239ff8fb
+  sha256: 080b6ef6d1c5b030def96ac8c4e4d3fec85091b320088144d345331d3e51eeec
 
 build:
-  number: 1
+  number: 0
   skip: win
 
 requirements:
